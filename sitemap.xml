@@ -56,11 +56,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://Furn-Protect.github.io/author/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://Furn-Protect.github.io/author/bud-parr/</loc>
+    <loc>https://Furn-Protect.github.io/contributer/bud-parr/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -72,7 +68,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://Furn-Protect.github.io/author/test-author/</loc>
+    <loc>https://Furn-Protect.github.io/contributer/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://Furn-Protect.github.io/contributer/test-author/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
