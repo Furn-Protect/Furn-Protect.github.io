@@ -6,7 +6,8 @@
     
     <title>About | Furniture-Protector</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="We team has 4 members in total. Group leader is Wang Qishu, with sub-leader Ouyang. Guided by Alkdis Chen.">
+    <meta name="description" content="We team has 4 members in total, and we designed this project.
+ Furniture protector is primarily designed for proactive identification and repelling of pet cats.">
     <meta name="generator" content="Hugo 0.117.0">
     
     
@@ -35,13 +36,16 @@
     
     
     <meta property="og:title" content="About" />
-<meta property="og:description" content="We team has 4 members in total. Group leader is Wang Qishu, with sub-leader Ouyang. Guided by Alkdis Chen." />
+<meta property="og:description" content="We team has 4 members in total, and we designed this project.
+ Furniture protector is primarily designed for proactive identification and repelling of pet cats." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://Furn-Protect.github.io/about/" />
 <meta itemprop="name" content="About">
-<meta itemprop="description" content="We team has 4 members in total. Group leader is Wang Qishu, with sub-leader Ouyang. Guided by Alkdis Chen."><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="We team has 4 members in total, and we designed this project.
+ Furniture protector is primarily designed for proactive identification and repelling of pet cats."><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="About"/>
-<meta name="twitter:description" content="We team has 4 members in total. Group leader is Wang Qishu, with sub-leader Ouyang. Guided by Alkdis Chen."/>
+<meta name="twitter:description" content="We team has 4 members in total, and we designed this project.
+ Furniture protector is primarily designed for proactive identification and repelling of pet cats."/>
 
 	
   </head>
@@ -73,14 +77,20 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/post/" title="Articles page">
-              Articles
+            <a class="hover-white no-underline white-90" href="/introduction/" title="Introduction page">
+              Introduction
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
-              Contact
+            <a class="hover-white no-underline white-90" href="/demo/" title="Demo page">
+              Demo
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/try/" title="Try page">
+              Try
             </a>
           </li>
           
@@ -120,7 +130,8 @@
         </h1>
         
           <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            We team has 4 members in total. Group leader is Wang Qishu, with sub-leader Ouyang. Guided by Alkdis Chen.
+            We team has 4 members in total, and we designed this project.
+ Furniture protector is primarily designed for proactive identification and repelling of pet cats.
           </h2>
         
       </div>
@@ -131,9 +142,28 @@
     <main class="pb7" role="main">
       
   <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><!-- raw HTML omitted -->
-<p>Furniture Protctor is designed for pet cat. Our team has developed a system that utilizes cat recognition and deterrence to protect indoor furniture, especially commonly used items such as sofas.</p>
-<p>This system was developed in response to frequent incidents of pet cats, represented by our feline companions, scratching and damaging household items.</p>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><!-- <figure><img src="/images/Victor_Hugo-Hunchback.jpg"/><figcaption>
+            <h4>Illustration from Victor Hugo et son temps (1881)</h4>
+        </figcaption>
+</figure>
+ -->
+<p>FurnProt(Furniture Protector) 由项目组的4为成员共同开发，成员分别为王麒舒，欧阳成来，欧阳晓怿和指导教师Alkdis Chen。</p>
+<p>我们的项目目前的主要功能为，通过软件识别与硬件设备（行空板），实现主动识别猫咪，并进行驱赶。</p>
+<p>具体地说，该方案包括以下几个方面：</p>
+<ol>
+<li>
+<p>摄像头：我们使用了一款低清摄像头，尽管分辨率不高，但足以满足初期的监测需求。摄像头可以捕捉猫咪的动作，将视频数据传输到后续的处理环节。</p>
+</li>
+<li>
+<p>Python脚本：我们编写了一个监控程序，用于实时监测猫咪抓沙发的情况。该程序通过读取摄像头采集的视频流，使用图像处理技术来分析视频中的猫咪是否在抓沙发。一旦发现猫咪抓沙发，程序就会立即向决策程序发送警报信号。</p>
+</li>
+<li>
+<p>决策程序：决策程序是整个项目的核心部分，它负责根据猫咪抓沙发的行为做出决策。例如，如果猫咪已经开始抓沙发，那么决策程序就会命令硬件运动模块执行驱赶猫咪的操作。决策程序的设计需要考虑各种情况下的猫咪抓沙发行为，并根据实际情况进行灵活调整。</p>
+</li>
+<li>
+<p>硬件运动模块：硬件运动模块包括舵机等组件，它们可以通过遥控器或自主控制器来控制它们的运动。在这个项目中，我们采用了逗猫棒来驱散猫咪，避免其继续抓沙发。逗猫棒可以通过手动控制或自动控制来移动，从而引导猫咪离开沙发区域。我们使用一个舵机来控制逗猫棒，使其能够根据视频监控和分析结果做出相应的运动，从而达到更好的逗猫效果。</p>
+</li>
+</ol>
 </section>
     <section class="flex-ns flex-wrap justify-around mt5">
       
